@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Persistence</ID>
+  <OriginalElement>JavaeeElement:/380df7b/entityManagerFactory/hansol-personality/jpa/JPA/PersistenceModel</OriginalElement>
+  <nodes>
+    <node x="91.75" y="1225.0">Tester#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Tester.java</node>
+    <node x="1354.6449965678523" y="452.49292227190205">TempMark1#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/TempMark1.java</node>
+    <node x="563.25" y="453.0">NormPersonality#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/NormPersonality.java</node>
+    <node x="1073.9366868269458" y="357.4815490950271">AbstractPersistable#jar://C:/Users/dhlee/.m2/repository/org/springframework/data/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class</node>
+    <node x="86.25" y="901.5">Group#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Group.java</node>
+    <node x="161.0" y="302.0">Department#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Department.java</node>
+    <node x="1562.6449965678523" y="452.49292227190205">Orientation#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Orientation.java</node>
+    <node x="519.25" y="821.0">SubFactor#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/SubFactor.java</node>
+    <node x="161.0" y="0.0">Hq#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Hq.java</node>
+    <node x="161.0" y="151.0">Region#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Region.java</node>
+    <node x="1139.6449965678523" y="557.492922271902">AbstractAuditable#jar://C:/Users/dhlee/.m2/repository/org/springframework/data/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class</node>
+    <node x="1990.906862745098" y="0.0">Report#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Report.java</node>
+    <node x="358.25" y="901.5">Factor#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Factor.java</node>
+    <node x="1276.3533063087586" y="440.6784856590587">null#null</node>
+    <node x="865.1449965678523" y="452.49292227190205">TempMark2#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/TempMark2.java</node>
+    <node x="1770.6449965678523" y="452.49292227190205">Narrative#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Narrative.java</node>
+    <node x="452.65686274509807" y="1675.0">TesterResult#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/TesterResult.java</node>
+    <node x="410.25" y="1386.0">FactorGroup#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/FactorGroup.java</node>
+    <node x="2232.906862745098" y="0.0">CapabilityGroup#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/CapabilityGroup.java</node>
+    <node x="601.5" y="1305.5">Question#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Question.java</node>
+    <node x="0.0" y="302.0">Role#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Role.java</node>
+    <node x="2642.906862745098" y="0.0">Info#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Info.java</node>
+    <node x="712.9068627450981" y="901.5">Capability#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Capability.java</node>
+    <node x="2440.906862745098" y="0.0">Mark#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Mark.java</node>
+    <node x="23.25" y="453.0">Admin#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Admin.java</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Region#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Region.java" target="Hq#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Hq.java">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="TesterResult#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/TesterResult.java" target="Tester#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Tester.java">
+      <point x="-46.5" y="-2178.0" />
+      <point x="499.15686274509807" y="1650.0" />
+      <point x="212.25" y="1650.0" />
+      <point x="0.0" y="200.0" />
+    </edge>
+    <edge source="Admin#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Admin.java" target="Role#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Role.java">
+      <point x="-63.0" y="-154.0" />
+      <point x="86.25" y="428.0" />
+      <point x="70.5" y="428.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="Department#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Department.java" target="Region#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Region.java">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="Question#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Question.java" target="SubFactor#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/SubFactor.java">
+      <point x="-38.25" y="-119.5" />
+      <point x="639.75" y="1200.0" />
+      <point x="625.75" y="1200.0" />
+      <point x="35.5" y="177.0" />
+    </edge>
+    <edge source="Admin#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Admin.java" target="Department#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Department.java">
+      <point x="63.0" y="-154.0" />
+      <point x="212.25" y="428.0" />
+      <point x="228.0" y="428.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="Tester#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Tester.java" target="Group#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Group.java">
+      <point x="0.0" y="-200.0" />
+      <point x="0.0" y="96.5" />
+    </edge>
+    <edge source="Group#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Group.java" target="Admin#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Admin.java">
+      <point x="-63.0" y="-96.5" />
+      <point x="0.0" y="154.0" />
+    </edge>
+    <edge source="Factor#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Factor.java" target="NormPersonality#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/NormPersonality.java">
+      <point x="0.0" y="-96.5" />
+      <point x="428.75" y="791.0" />
+      <point x="611.75" y="791.0" />
+      <point x="-48.5" y="154.0" />
+    </edge>
+    <edge source="TesterResult#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/TesterResult.java" target="NormPersonality#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/NormPersonality.java">
+      <point x="46.5" y="-2178.0" />
+      <point x="592.1568627450981" y="1650.0" />
+      <point x="848.4068627450981" y="1650.0" />
+      <point x="848.4068627450981" y="791.0" />
+      <point x="741.0833333333334" y="791.0" />
+      <point x="80.83333333333337" y="154.0" />
+    </edge>
+    <edge source="AbstractAuditable#jar://C:/Users/dhlee/.m2/repository/org/springframework/data/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class" target="null#null">
+      <point x="42.5" y="-39.0" />
+      <point x="1267.1449965678523" y="532.492922271902" />
+      <point x="1284.1449965678523" y="532.492922271902" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="FactorGroup#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/FactorGroup.java" target="Factor#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Factor.java">
+      <point x="-40.75" y="-39.0" />
+      <point x="451.0" y="1200.0" />
+      <point x="428.75" y="1200.0" />
+      <point x="0.0" y="96.5" />
+    </edge>
+    <edge source="FactorGroup#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/FactorGroup.java" target="SubFactor#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/SubFactor.java">
+      <point x="40.75" y="-39.0" />
+      <point x="532.5" y="1200.0" />
+      <point x="554.75" y="1200.0" />
+      <point x="-35.5" y="177.0" />
+    </edge>
+    <edge source="Capability#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Capability.java" target="NormPersonality#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/NormPersonality.java">
+      <point x="0.0" y="-96.5" />
+      <point x="775.4068627450981" y="801.0" />
+      <point x="708.75" y="801.0" />
+      <point x="48.5" y="154.0" />
+    </edge>
+    <edge source="Group#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Group.java" target="NormPersonality#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/NormPersonality.java">
+      <point x="63.0" y="-96.5" />
+      <point x="275.25" y="781.0" />
+      <point x="579.4166666666666" y="781.0" />
+      <point x="-80.83333333333337" y="154.0" />
+    </edge>
+    <edge source="SubFactor#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/SubFactor.java" target="NormPersonality#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/NormPersonality.java">
+      <point x="0.0" y="-177.0" />
+      <point x="590.25" y="801.0" />
+      <point x="644.0833333333334" y="801.0" />
+      <point x="-16.16666666666663" y="154.0" />
+    </edge>
+    <edge source="Question#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/Question.java" target="NormPersonality#file://D:/Visual Studio Code/hansol-personality/src/main/java/com/eduhansol/app/entities/NormPersonality.java">
+      <point x="38.25" y="-119.5" />
+      <point x="716.25" y="1200.0" />
+      <point x="702.4068627450981" y="1200.0" />
+      <point x="702.4068627450981" y="801.0" />
+      <point x="676.4166666666666" y="801.0" />
+      <point x="16.16666666666663" y="154.0" />
+    </edge>
+    <edge source="AbstractAuditable#jar://C:/Users/dhlee/.m2/repository/org/springframework/data/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractAuditable.class" target="AbstractPersistable#jar://C:/Users/dhlee/.m2/repository/org/springframework/data/spring-data-jpa/2.2.4.RELEASE/spring-data-jpa-2.2.4.RELEASE.jar!/org/springframework/data/jpa/domain/AbstractPersistable.class">
+      <point x="-42.5" y="-39.0" />
+      <point x="1182.1449965678523" y="532.492922271902" />
+      <point x="1165.1449965678523" y="532.492922271902" />
+      <point x="0.0" y="27.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8464220789952073" x="1150.0528340199544" y="384.37954194896236" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Embeddables</Category>
+    <Category>Superclasses</Category>
+  </Categories>
+</Diagram>
+
